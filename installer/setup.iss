@@ -6,7 +6,7 @@
 ; ============================================================
 
 #define AppName "WinLog Analyzer"
-#define AppVersion "1.9.0"
+#define AppVersion "1.9.1"
 #define AppPublisher "heiphaistos44"
 #define AppExe "WinLogAnalyzer.exe"
 
@@ -19,6 +19,8 @@ DefaultDirName={autopf}\WinLogAnalyzer
 DefaultGroupName={#AppName}
 OutputDir=..\dist\installer
 OutputBaseFilename=WinLogAnalyzer-Setup-{#AppVersion}
+SetupIconFile=..\src\WinLogAnalyzer.App\Assets\app.ico
+UninstallDisplayIcon={app}\{#AppExe}
 Compression=lzma2
 SolidCompression=yes
 WizardStyle=modern
